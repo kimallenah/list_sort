@@ -18,13 +18,11 @@ def list_sort(lst):
     odd.sort()
     char.sort()
 
-    final_answer = {
+    dictionary = {
         'evens': even,
         'odd': odd,
         'char': char
     }
 
-    return print(final_answer)
+    return print(dictionary)
 
-lst1 = ['a', 2, 0, 'z', 6, 5, 1, 7]
-list_sort(lst1)
